@@ -6,6 +6,10 @@ public class TestCustomException
 		{
 			throw new ABC("too young exc"); 
 		}
+		else
+		{
+			throw new ABC("Too old exc");
+		}
 	}
 }
 
